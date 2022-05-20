@@ -150,5 +150,5 @@ function start(){
         },450);
         let qIdx = 0; /*q index*/
         goNext(qIdx);
-    },450)
+    },450);
 }
