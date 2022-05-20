@@ -93,8 +93,8 @@ function setResult(){ //개발자유형 결과 출력 함수
 
 //#11 결과페이지 만들기
 function goResult(){ //goStart 함수 내용 복사 qna qna result result qna result로 수정
-    qna.style.WebktAnimation = "fadeout 1s";
-    qna.style.animation = "fadeOit 1s";
+    qna.style.WebktAnimation = "fadeOut 1s";
+    qna.style.animation = "fadeOut 1s";
 
     setTimeout(()=>{
         result.style.WebktAnimation = "fadeIn 1s";
@@ -138,8 +138,8 @@ function goNext(qIdx){
 
 //#2 웹 화면 애니메이션 적용
 function start(){
-    main.style.WebktAnimation = "fadeout 1s";
-    main.style.animation = "fadeOit 1s";
+    main.style.WebktAnimation = "fadeOut 1s";
+    main.style.animation = "fadeOut 1s";
 
     setTimeout(()=>{
         qna.style.WebktAnimation = "fadeIn 1s";
