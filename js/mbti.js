@@ -138,11 +138,11 @@ function goNext(qIdx){
 
 //#2 웹 화면 애니메이션 적용
 function start(){
-    main.style.WebktAnimation = "fadeOut 1s";
+    main.style.WebkitAnimation = "fadeOut 1s";
     main.style.animation = "fadeOut 1s";
 
     setTimeout(()=>{
-        qna.style.WebktAnimation = "fadeIn 1s";
+        qna.style.WebkitAnimation = "fadeIn 1s";
         qna.style.animation = "fadeIn 1s";
         setTimeout(()=>{
             main.style.display = "none";
